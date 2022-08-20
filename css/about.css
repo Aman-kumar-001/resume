@@ -1,0 +1,76 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 100%;    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    
+}
+h1{
+    
+    font-size: 30px;
+    margin-left: 20px;
+    animation-name: logo1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo1 {
+    from{
+        color:white;
+    }
+    to{
+        color:red;
+    }
+    
+}
+button{
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+    margin-right: 25px;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+button:hover{
+    border-color: red;
+
+}
+a:hover{
+    color: red;
+   
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+ul{
+    color:white;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.left{
+    width: 50%;
+    margin-left: 20px;
+    padding-left: 300px;
+    align-items: flex-end;   
+}
+.right{
+    width: 50%;
+    padding-right: 200px;
+    
+}
