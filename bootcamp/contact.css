@@ -36,3 +36,54 @@ i:hover{
     border: 2px solid blue;
     border-radius: 10px;
 }
+.container{
+    background-color:lightgray;
+    border: 2px solid black;
+    width:60%;
+    margin: 100px auto;
+    height: 420px;
+    
+}
+input:hover{
+    border-color:blue;
+}
+textarea:hover{
+    border-color:blue;
+}
+
+textarea,input{
+    margin-top: 20px;
+}
+
+.button2{
+    border: 2px solid white;
+    background-color: blue;
+    color: white;
+    margin-right: 25px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.button2:hover{
+    border-color: lightskyblue;
+    background-color: white;
+    color: black;
+
+}
+p{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;   
+}
+p{
+    padding: 10px 10px;
+    margin-left: 130px;
+    margin-top: 20px;
+    color: black;
+    text-decoration: underline;
+}
+h5{
+    font-size: 30px;
+    margin-left: 20px;
+    color: black;
+    text-align: center;
+}
