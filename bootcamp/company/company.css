@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}h2{
+    font-size: 40px;
+    color: red;
+    animation-name: logo;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes logo {
+    form{
+        color: red;
+        border: 2px solid red;
+        width: fit-content;
+    }
+    to{
+        color: white;
+        border: 2px solid black;
+        width: fit-content;
+    }
+}
+
+nav{
+    display: inline-block;
+    background-color:white;
+    width:100%;
+    height: 40px;
+
+}
+a{  
+    margin-top: 20px;
+    padding-inline: 30px;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+a:hover{
+    color: red;
+}
+footer {
+    background-color: #333;
+    height: 50px;
+    overflow: hidden;
+     flex-wrap: wrap;  
+     padding-inline: 20px; 
+     margin-top: 35px;
+     
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    justify-items: center;
+    color: white;
+    flex-wrap: wrap;
+    
+}
+.container{
+    padding: 20px 10px;
+    display: flex;
+    background-color: cornsilk;
+    color: black;
+    height: 300px;
+    border: 5px solid black;
+    border-collapse: initial;
+
+} 
+.right{
+    width: 50%;
+    padding-right: 5px;
+
+}
+.left{
+    width: 50%;
+    padding-right: 5px;
+}
+p{
+    margin-top: 60px;
+}
+h2{
+    font-size: 40px;
+}
+.container2{
+    margin: 0 25%;
+   
+}
+form{
+    border: 2px solid balck;
+    width: fit-content;
+}
+
+input:hover{
+    border-color:blue;
+}
+textarea:hover{
+    border-color:blue;
+}
+
+textarea,input{
+    margin-top: 20px;
+}
+
+.button2{
+    border: 2px solid white;
+    background-color: blue;
+    color: white;
+    margin-right: 25px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.button2:hover{
+    border-color: lightskyblue;
+    background-color: white;
+    color: black;
+
+}
