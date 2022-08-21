@@ -1,0 +1,18 @@
+*{
+    background-color: lightgreen;
+    box-sizing: border-box;
+}
+h3,h4{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: fit-content;
+
+}
+h1{
+    text-shadow: 10px;
+    text-decoration: underline;
+}
+p,ul{
+    width: 500px;
+    padding-left: 100px;
+}
