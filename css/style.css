@@ -11,6 +11,15 @@ i:hover{
     border: 2px solid red;
      border-radius: 50%;
 }
+.border{
+  text-align: center;
+  justify-items: center;
+  height: 300px;
+  width: 10px;
+  background-color: red;
+  border-radius: 16px;
+  margin-right: 12px;
+}
 
 *{
     padding: 0;
@@ -113,6 +122,11 @@ h1{
     align-items: center;
     padding-left: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.align-right{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 p{
     font-style: italic;
